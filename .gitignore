@@ -1,0 +1,15 @@
+# Environment Variables & Secrets
+.env
+*.env
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# n8n Local Execution Data (if running via npm/docker)
+.n8n/
+*.log
+
+# Node modules (if any custom nodes/scripts used)
+node_modules/
+npm-debug.log
